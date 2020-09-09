@@ -1,0 +1,98 @@
+.container {
+  overflow: auto;
+  min-height: 100vh;
+}
+.header {
+  display: flex;
+  position: relative;
+  background: linear-gradient(to bottom, #8e2de2, #ee0979);;
+  box-shadow: 0px 5px 10px 0px #000000;
+  text-align: center;
+  padding-top: 220px;
+  padding-left: 20px;
+  margin-bottom: 60px;
+  padding-right: 20px;
+  padding-bottom: 220px;
+}
+.container1 {
+  position: relative;
+  font-size: 1.6rem;
+  max-width: 590px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text {
+  top: -66%;
+  left: -25%;
+  opacity: 0.1;
+  position: absolute;
+  font-size: 10rem;
+  transform: rotate(-6deg);
+  font-style: italic;
+  text-align: center;
+}
+.text1 {
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+.container2 {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.list {
+  display: grid;
+  grid-gap: 45px;
+  position: relative;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.github {
+  background: linear-gradient(to bottom, #8e2de2, #ee0979);;
+  margin-top: 120px;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.container3 {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text3 {
+  font-size: 2rem;
+  margin-bottom: 1.4rem;
+}
+.text4 {
+  margin-bottom: 1.4rem;
+}
+.made-in-telepor {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.container4 {
+  display: flex;
+  grid-gap: 45px;
+  max-width: 1002px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.image {
+  width: 280px;
+  height: auto;
+  object-fit: cover;
+}
+.text5 {
+  margin-bottom: 1.4rem;
+}
+.text6 {
+  margin-bottom: 1.4rem;
+}
+.text7 {
+  margin-bottom: 1.4rem;
+}

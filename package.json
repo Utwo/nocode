@@ -1,0 +1,15 @@
+{
+  "name": "nocode",
+  "private": true,
+  "version": "1.0.0",
+  "author": "teleporthq.io",
+  "description": "A stencil project generated based on a UIDL document",
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve"
+  },
+  "dependencies": {
+    "@stencil/core": "^1.2.1",
+    "@stencil/router": "^1.0.1"
+  }
+}
