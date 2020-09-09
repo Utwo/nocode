@@ -1,0 +1,213 @@
+.header-site {
+  display: flex;
+  position: relative;
+  background: cover linear-gradient(180deg, rgba(61, 44, 216, 0.55) 0, rgba(208, 0, 100, 0.4) 85.94%, rgba(33, 33, 33, 0) 100%);
+  text-align: center;
+  margin-bottom: 25px;
+  padding: 350px 20px 440px;
+}
+
+.container01 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  background: left top / 100% no-repeat url(/assets/playground_assets/wave-ymfj.svg);
+}
+
+.container02 {
+  max-width: 1020px;
+  margin: 70px auto 0;
+}
+
+.container03 {
+  position: absolute;
+  top: 60vh;
+  left: -201px;
+  width: 586px;
+  height: 425px;
+  background: left top / 100% no-repeat url(/assets/playground_assets/blob-full.svg);
+}
+
+.container04 {
+  position: absolute;
+  top: 32vh;
+  right: 0;
+  width: 414px;
+  height: 455px;
+  background: right / 100% no-repeat url(/assets/playground_assets/blob.svg);
+}
+
+.container05 {
+  position: relative;
+  font-size: 1.6rem;
+  max-width: 590px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  position: absolute;
+  top: -87%;
+  left: -20%;
+  color: rgba(255, 189, 217, 0.8);
+  opacity: 1;
+  transform: rotate(-6deg);
+  font-size: 10rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.text1 {
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.main-wrapper {
+  position: relative;
+}
+
+.container06 {
+  position: absolute;
+  top: 30vh;
+  right: -318px;
+  width: 690px;
+  height: 640px;
+  transform: rotate(90deg);
+  background: right / cover no-repeat url(/assets/playground_assets/blob-full.svg);
+}
+
+.main-site {
+  max-width: 1200px;
+  margin: -220px auto 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.list {
+  display: grid;
+  grid-gap: 45px;
+  position: relative;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.github {
+  position: relative;
+  margin-top: 120px;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.container07 {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  width: 100%;
+  max-width: 750px;
+  margin-left: -375px;
+}
+
+.container08 {
+  max-width: 850px;
+  background: linear-gradient(180deg, rgba(255, 0, 102, 0.2) 0, rgba(164, 3, 128, 0.2) 100%);
+  margin: 0 auto;
+  border-radius: 35px;
+  padding: 2rem 2rem 1rem;
+}
+
+.container09 {
+  background: linear-gradient(180deg, rgba(255, 0, 102, 0.3) 0, rgba(164, 3, 128, 0.3) 100%);
+  border-radius: 35px;
+  padding: 2rem 2rem 0.2rem;
+}
+
+.container10 {
+  position: relative;
+  border-radius: 35px;
+  background: #f06;
+  padding: 6rem 4rem 7rem;
+}
+
+.text3 {
+  font-size: 2rem;
+  margin-bottom: 1.4rem;
+}
+
+.text4 {
+  margin-bottom: 1.4rem;
+}
+
+.container11 {
+  position: absolute;
+  bottom: -120px;
+  left: 0;
+  width: 100%;
+  height: 170px;
+  background: center / 100% no-repeat url(/assets/playground_assets/wave-github.svg);
+}
+
+.made-in-telepor {
+  position: relative;
+}
+
+.container12 {
+  position: relative;
+  z-index: 2;
+  padding-top: 120px;
+  padding-bottom: 240px;
+  background: center top / cover no-repeat url(/assets/playground_assets/wavefooter.svg);
+}
+
+.container13 {
+  max-width: 650px;
+  margin: 0 auto;
+  padding-left: 180px;
+}
+
+.text5 {
+  margin-bottom: 1.4rem;
+}
+
+.text6 {
+  margin-bottom: 1.4rem;
+}
+
+.text7 {
+  margin-bottom: 1.4rem;
+}
+
+.container14 {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  width: 100%;
+  transform: rotate(-180deg);
+}
+
+.container15 {
+  position: absolute;
+  left: 2rem;
+  bottom: 0;
+  width: 630px;
+  height: 416px;
+  background: left top / contain no-repeat url(/assets/playground_assets/footer.svg);
+}
+
+.container16 {
+  position: absolute;
+  bottom: 196px;
+  width: 100%;
+  transform: rotate(-170deg);
+}
+
+.image {
+  position: relative;
+  width: 280px;
+  height: auto;
+  margin-top: 40px 80px 0 0;
+  object-fit: cover;
+}

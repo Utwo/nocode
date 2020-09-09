@@ -1,79 +1,78 @@
 .container {
   width: 100%;
   height: 205px;
-  overflow: auto;
   position: relative;
+}
+.thqImage {
+  position: absolute;
+  width: 50px;
+  animation: 1s infinite rain;
 }
 .image {
   top: 50%;
   right: 40%;
-  width: 50px;
   opacity: 0.2;
-  position: absolute;
-  object-fit: cover;
+  animation-duration: 4s;
 }
 .image1 {
   top: 5%;
   left: 0%;
-  width: 50px;
   opacity: 0.75;
-  position: absolute;
-  object-fit: cover;
+  animation-duration: 5s;
 }
 .image2 {
   top: 57%;
   left: 28%;
-  width: 50px;
   opacity: 0.4;
-  position: absolute;
-  object-fit: cover;
+  animation-duration: 7s;
 }
 .image3 {
   top: 0px;
   right: 50%;
-  width: 50px;
   opacity: 0.95;
-  position: absolute;
-  object-fit: cover;
+  animation-duration: 5s;
 }
 .image4 {
   top: 30%;
   left: 17%;
-  width: 50px;
   opacity: 0.7;
-  position: absolute;
-  object-fit: cover;
+  animation-duration: 10s;
 }
 .image5 {
   top: 60%;
   left: 40%;
-  width: 50px;
   opacity: 0.2;
-  position: absolute;
-  object-fit: cover;
+  animation-duration: 7.5s;
 }
 .image6 {
   top: 10%;
   left: 30%;
-  right: %;
-  width: 50px;
   opacity: 0.65;
-  position: absolute;
-  object-fit: cover;
+  animation-duration: 8.5s;
 }
 .image7 {
   top: 10%;
   right: 20%;
-  width: 50px;
   opacity: 0.8;
-  position: absolute;
-  object-fit: cover;
+  animation-duration: 8s;
 }
 .image8 {
   top: 60%;
   right: 0px;
-  width: 50px;
   opacity: 0.6;
-  position: absolute;
-  object-fit: cover;
+  animation-duration: 6.5s;
+}
+
+@keyframes rain {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(0, 4rem) rotate(45deg) scale(0.9);
+    transform-origin: center;
+  }
 }
