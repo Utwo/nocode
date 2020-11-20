@@ -1,21 +1,12 @@
 import { Component, h } from '@stencil/core';
 import awesomeList from '../../awesome-list.json';
-import AOS from 'aos';
 
 @Component({
   tag: 'app-home',
   shadow: true,
-  styleUrls: ['style.css', '../../global/aos.css'],
+  styleUrls: ['style.css'],
 })
 export class Home {
-  componentDidRender() {
-    AOS.init();
-    AOS.refresh();
-  }
-  componentDidUpdate() {
-    AOS.init();
-    AOS.refresh();
-  }
   render() {
     return (
       <div class="container">
@@ -29,13 +20,9 @@ export class Home {
           <div class="container03"></div>
           <div class="container04"></div>
           <div class="container05">
-            <h1 class="thqHeading1 text" data-aos="fade-up">
-              AWESOME
-            </h1>
-            <h1 class="thqHeading1 text1" data-aos="fade-up">
-              nocode/lowcode website builders list
-            </h1>
-            <p>A list of Nocode/Lowcode apps for you to build your next great website</p>
+            <h1 class="thqHeading1 text text-gradient">AWESOME</h1>
+            <h1 class="thqHeading1 text1">nocode/lowcode website builders list</h1>
+            <p>A list of Nocode/Lowcode apps for your next great website</p>
           </div>
         </header>
         <main class="main-wrapper">
@@ -52,13 +39,13 @@ export class Home {
           <div class="container07">
             <app-stars></app-stars>
           </div>
-          <div class="container08" data-aos="fade-down">
+          <div class="container08">
             <div class="container09">
               <div class="container10">
                 <h2 class="thqHeading2 text3">Contribute on Github</h2>
                 <p class="text4">
-                  Have a favorite application that it&apos;s not on this list? Open a new issue or a new PR (you only need to edit a JSON file) and help others discover new
-                  nodecode tools.
+                  Have a favorite application that it&apos;s not on this list? <a href="https://github.com/Utwo/nocode/issues/new">Open a new issue</a> or{' '}
+                  <a href="https://github.com/Utwo/nocode/pulls">a new PR</a> (you only need to edit a JSON file) and help others discover new nodecode tools.
                 </p>
                 <div class="container11"></div>
               </div>
@@ -70,11 +57,16 @@ export class Home {
             <div class="container13">
               <h2 class="thqHeading2 text5">Made in Teleport</h2>
               <p class="text6">
-                Hello, I&apos;m Utwo, a web developer working on TeleportHQ. I collected a bunch of nocode/lowcode website builders in Notion for quite some time and I wanted to
-                share that with you. And what is a better way to share that then with a website build with one of the platforms from the list?
+                Hello, I&apos;m{' '}
+                <a href="https://twitter.com/Utwoo">
+                  <img src="/assets/playground_assets/utwo.jpg" width="20" /> Utwo
+                </a>
+                , a web developer working on <a href="https://teleporthq.io">TeleportHQ</a>. I collected a bunch of nocode/lowcode website builders in Notion for quite some time
+                and I wanted to share that with you. And what is a better way to share that then with a website build with one of the platforms from the list? Meta right?
               </p>
               <p class="text7">
-                This website was made in Teleport platform and exported to code in Stencil framework. After some minor tweaks, the code was pushed to Github and deployed to Vercel.
+                This website was made in Teleport platform and exported to code in <a href="https://stenciljs.com">Stencil</a> framework. After some minor tweaks, the code was
+                pushed to <a href="https://github.com/Utwo/nocode">Github</a> and deployed to <a href="https://vercel.com">Vercel</a>.
               </p>
             </div>
           </div>

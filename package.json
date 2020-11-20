@@ -10,10 +10,7 @@
     "generate": "stencil generate"
   },
   "devDependencies": {
-    "@stencil/core": "2.0.3",
+    "@stencil/core": "2.3.0",
     "@stencil/router": "^1.0.1"
-  },
-  "dependencies": {
-    "aos": "^2.3.4"
   }
 }

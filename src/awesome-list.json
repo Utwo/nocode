@@ -1,36 +1,36 @@
 [
   {
     "name": "TeleportHQ",
-    "description": "Create high-definition prototypes visually, generate the code in real-time, and deploy your user interface with one click",
+    "description": "Create high-definition prototypes visually, generate the code in real-time, and deploy your user interface with one click.",
     "price": "FREE",
     "tags": ["browser based", "open source", "hosting", "export code"]
   },
   {
-    "name": "TeleportHQ",
-    "description": "Create high-definition prototypes visually, generate the code in real-time, and deploy your user interface with one click",
+    "name": "Gimli app",
+    "description": "Create high-definition prototypes visually, generate the code in real-time, and deploy your user interface with one click.",
     "price": "FREE",
     "tags": ["browser based", "export code"]
   },
   {
-    "name": "TeleportHQ",
+    "name": "Plasmic",
+    "description": "Create high-definition prototypes visually, generate the code in real-time, and deploy your user interface with one click.",
+    "price": "FREE",
+    "tags": ["browser based", "open source", "hosting", "export code"]
+  },
+  {
+    "name": "Debuild",
     "description": "Create high-definition prototypes visually, generate the code in real-time, and deploy your user interface with one click",
     "price": "FREE",
     "tags": ["browser based", "open source", "hosting", "export code"]
   },
   {
-    "name": "TeleportHQ",
+    "name": "Visly",
     "description": "Create high-definition prototypes visually, generate the code in real-time, and deploy your user interface with one click",
     "price": "FREE",
     "tags": ["browser based", "open source", "hosting", "export code"]
   },
   {
-    "name": "TeleportHQ",
-    "description": "Create high-definition prototypes visually, generate the code in real-time, and deploy your user interface with one click",
-    "price": "FREE",
-    "tags": ["browser based", "open source", "hosting", "export code"]
-  },
-  {
-    "name": "TeleportHQ",
+    "name": "Handoff design",
     "description": "Create high-definition prototypes visually, generate the code in real-time, and deploy your user interface with one click",
     "price": "FREE",
     "tags": ["browser based", "open source", "hosting", "export code"]
