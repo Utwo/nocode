@@ -35,7 +35,7 @@ export class Home {
             </div>
           </div>
         </main>
-        <div class="github">
+        <section class="github">
           <div class="container07">
             <app-stars></app-stars>
           </div>
@@ -51,7 +51,7 @@ export class Home {
               </div>
             </div>
           </div>
-        </div>
+        </section>
         <footer class="made-in-telepor">
           <div class="container12">
             <div class="container13">
@@ -59,7 +59,7 @@ export class Home {
               <p class="text6">
                 Hello, I&apos;m{' '}
                 <a href="https://twitter.com/Utwoo">
-                  <img src="/assets/playground_assets/utwo.jpg" width="20" /> Utwo
+                  <img src="/assets/playground_assets/utwo.webp" alt="utwo logo" width="20" /> Utwo
                 </a>
                 , a web developer working on <a href="https://teleporthq.io">TeleportHQ</a>. I collected a bunch of nocode/lowcode website builders in Notion for quite some time
                 and I wanted to share that with you. And what is a better way to share that then with a website build with one of the platforms from the list? Meta right?
@@ -77,7 +77,7 @@ export class Home {
             <div class="container16">
               <app-stars></app-stars>
             </div>
-            <img src="/assets/playground_assets/teleport-vfmx.svg" class="thqImage image" />
+            <img src="/assets/playground_assets/teleport-vfmx.svg" alt="teleport logo" class="thqImage image" />
           </div>
         </footer>
       </div>

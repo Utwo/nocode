@@ -16,7 +16,7 @@ export class Card {
         <div class="decorate" />
         <div class="card">
           <span class="text">{this.price}</span>
-          <h3 class="thqHeading3 text1">{this.name}</h3>
+          <h2 class="thqHeading3 text1">{this.name}</h2>
           <div class="container"></div>
           <p>{this.description}</p>
           <div class="container1">
