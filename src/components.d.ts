@@ -11,6 +11,7 @@ export namespace Components {
         "name": string;
         "price": string;
         "tags": string[];
+        "website": string;
     }
     interface AppHome {
     }
@@ -57,6 +58,7 @@ declare namespace LocalJSX {
         "name"?: string;
         "price"?: string;
         "tags"?: string[];
+        "website"?: string;
     }
     interface AppHome {
     }

@@ -12,5 +12,8 @@
   "devDependencies": {
     "@stencil/core": "2.3.0",
     "@stencil/router": "^1.0.1"
+  },
+  "dependencies": {
+    "@animxyz/core": "^0.1.1"
   }
 }

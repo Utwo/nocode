@@ -3,54 +3,35 @@
     "name": "TeleportHQ",
     "description": "Create high-definition prototypes visually, generate the code in real-time, and deploy your user interface with one click.",
     "price": "FREE",
-    "tags": ["browser based", "open source", "hosting", "export code"]
+    "tags": ["browser based", "open source", "hosting", "export code"],
+    "website": "https://teleporthq.io"
   },
   {
     "name": "Gimli app",
     "description": "Create high-definition prototypes visually, generate the code in real-time, and deploy your user interface with one click.",
     "price": "FREE",
-    "tags": ["browser based", "export code"]
+    "tags": ["browser based", "export code"],
+    "website": "https://teleporthq.io"
   },
   {
     "name": "Plasmic",
     "description": "Create high-definition prototypes visually, generate the code in real-time, and deploy your user interface with one click.",
     "price": "FREE",
-    "tags": ["browser based", "open source", "hosting", "export code"]
+    "tags": ["browser based", "open source", "hosting", "export code"],
+    "website": "https://teleporthq.io"
   },
   {
     "name": "Debuild",
     "description": "Create high-definition prototypes visually, generate the code in real-time, and deploy your user interface with one click",
     "price": "FREE",
-    "tags": ["browser based", "open source", "hosting", "export code"]
+    "tags": ["browser based", "open source", "hosting", "export code"],
+    "website": "https://teleporthq.io"
   },
   {
     "name": "Visly",
     "description": "Create high-definition prototypes visually, generate the code in real-time, and deploy your user interface with one click",
     "price": "FREE",
-    "tags": ["browser based", "open source", "hosting", "export code"]
-  },
-  {
-    "name": "Handoff design",
-    "description": "Create high-definition prototypes visually, generate the code in real-time, and deploy your user interface with one click",
-    "price": "FREE",
-    "tags": ["browser based", "open source", "hosting", "export code"]
-  },
-  {
-    "name": "TeleportHQ",
-    "description": "Create high-definition prototypes visually, generate the code in real-time, and deploy your user interface with one click",
-    "price": "FREE",
-    "tags": ["browser based", "open source", "hosting", "export code"]
-  },
-  {
-    "name": "TeleportHQ",
-    "description": "Create high-definition prototypes visually, generate the code in real-time, and deploy your user interface with one click",
-    "price": "FREE",
-    "tags": ["browser based", "open source", "hosting", "export code"]
-  },
-  {
-    "name": "TeleportHQ",
-    "description": "Create high-definition prototypes visually, generate the code in real-time, and deploy your user interface with one click",
-    "price": "FREE",
-    "tags": ["browser based", "open source", "hosting", "export code"]
+    "tags": ["browser based", "open source", "hosting", "export code"],
+    "website": "https://teleporthq.io"
   }
 ]
