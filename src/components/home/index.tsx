@@ -3,8 +3,9 @@ import awesomeList from '../../awesome-list.json';
 
 @Component({
   tag: 'app-home',
-  shadow: true,
-  styleUrls: ['style.css'],
+  shadow: false,
+  scoped: false,
+  styleUrl: 'style.css',
 })
 export class Home {
   render() {
@@ -17,22 +18,36 @@ export class Home {
               <app-stars></app-stars>
             </div>
           </div>
-          <div class="container03"></div>
-          <div class="container04"></div>
-          <div class="container05">
-            <h1 class="thqHeading1 text text-gradient">AWESOME</h1>
-            <h1 class="thqHeading1 text1">nocode/lowcode website builders list</h1>
-            <p>A list of Nocode/Lowcode apps for your next great website</p>
-          </div>
+          {
+            //@ts-ignore
+            <div class="container03 xyz-in" xyz="fade left-5 big-3 origin-left duration-20 delay-10"></div>
+          }
+          {
+            //@ts-ignore
+            <div class="container04 xyz-in" xyz="fade right-5 big-3 origin-right duration-15 delay-10"></div>
+          }
+          {
+            //@ts-ignore
+            <div class="container05" xyz="fade down-3 small-3 stagger-2 delay-2">
+              <div class="heading-wrapper xyz-in">
+                <h1 class="thqHeading1 text text-gradient">AWESOME</h1>
+              </div>
+              <h1 class="thqHeading1 text1 xyz-in">nocode/lowcode website builders list</h1>
+              <p class="xyz-in">A list of Nocode/Lowcode apps for your next great website</p>
+            </div>
+          }
         </header>
         <main class="main-wrapper">
           <div class="container06"></div>
           <div class="main-site">
-            <div class="list">
-              {awesomeList.map(element => (
-                <app-card name={element.name} description={element.description} price={element.price} tags={element.tags}></app-card>
-              ))}
-            </div>
+            {
+              //@ts-ignore
+              <div class="list" xyz="fade stagger-2 down delay-10">
+                {awesomeList.map(element => (
+                  <app-card class="xyz-in" name={element.name} description={element.description} price={element.price} tags={element.tags}></app-card>
+                ))}
+              </div>
+            }
           </div>
         </main>
         <section class="github">

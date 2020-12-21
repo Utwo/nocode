@@ -1,3 +1,5 @@
+@import url('./../../node_modules/@animxyz/core/dist/animxyz.min.css');
+
 * {
   box-sizing: border-box;
   border-width: 0;
