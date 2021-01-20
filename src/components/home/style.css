@@ -22,7 +22,7 @@ a:hover {
   background: linear-gradient(180deg, rgba(61, 44, 216, 0.55) 0, rgba(208, 0, 100, 0.4) 85.94%, rgba(33, 33, 33, 0) 100%);
   text-align: center;
   margin-bottom: 25px;
-  padding: 350px 20px 440px;
+  padding: 480px 20px 380px;
 }
 .heading-wrapper {
   position: relative;
@@ -69,17 +69,17 @@ a:hover {
 
 .text {
   position: absolute;
-  top: -300px;
+  top: -500px;
   left: 50%;
   transform: rotate(-6deg) translateX(-50%);
-  font-size: 10rem;
+  font-size: 15rem;
   font-style: italic;
   text-align: center;
 }
 
 .text-gradient {
-  color: rgba(0, 0, 0, 0);
-  background-image: linear-gradient(143.3deg, rgba(216, 27, 96, 1) 33.1%, rgba(237, 107, 154, 1) 74.9%);
+  color: rgba(255, 255, 255, 0.1);
+  background-image: linear-gradient(143.3deg, rgba(216, 27, 96, 0.3) 33.1%, rgba(237, 107, 154, 0.9) 74.9%);
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
@@ -88,7 +88,7 @@ a:hover {
   animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
 }
 
-.text-gradient:hover {
+.container05:hover .text-gradient {
   animation: rainbow-text-simple-animation 0.5s ease-in forwards;
 }
 

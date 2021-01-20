@@ -32,7 +32,7 @@ export class Home {
               <div class="heading-wrapper xyz-in">
                 <h1 class="thqHeading1 text text-gradient">AWESOME</h1>
               </div>
-              <h1 class="thqHeading1 text1 xyz-in">nocode/lowcode website builders list</h1>
+              <h1 class="thqHeading1 text1 xyz-in">website builders</h1>
               <p class="xyz-in">A list of Nocode/Lowcode apps for your next great website</p>
             </div>
           }

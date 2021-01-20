@@ -2,36 +2,78 @@
   {
     "name": "TeleportHQ",
     "description": "Create high-definition prototypes visually, generate the code in real-time, and deploy your user interface with one click.",
-    "price": "FREE",
-    "tags": ["browser based", "open source", "hosting", "export code"],
+    "price": "FREE plan",
+    "tags": ["browser based", "open source generators", "hosting", "export code"],
     "website": "https://teleporthq.io"
   },
   {
-    "name": "Gimli app",
-    "description": "Create high-definition prototypes visually, generate the code in real-time, and deploy your user interface with one click.",
-    "price": "FREE",
-    "tags": ["browser based", "export code"],
-    "website": "https://teleporthq.io"
+    "name": "Modulz",
+    "description": "Design, develop, document and deploy your design system—without writing code.",
+    "price": "private beta",
+    "tags": ["browser based"],
+    "website": "https://www.modulz.app"
+  },
+  {
+    "name": "Bondlayer",
+    "description": "Build & launch without coding. The only #nocode tool to create multilingual native apps & websites.",
+    "price": "FREE plan",
+    "tags": ["browser based", "CMS", "hosting", "web&mobile apps", "interactions&animations", "add custom code"],
+    "website": "https://www.bondlayer.com"
   },
   {
     "name": "Plasmic",
-    "description": "Create high-definition prototypes visually, generate the code in real-time, and deploy your user interface with one click.",
-    "price": "FREE",
-    "tags": ["browser based", "open source", "hosting", "export code"],
-    "website": "https://teleporthq.io"
-  },
-  {
-    "name": "Debuild",
-    "description": "Create high-definition prototypes visually, generate the code in real-time, and deploy your user interface with one click",
-    "price": "FREE",
-    "tags": ["browser based", "open source", "hosting", "export code"],
-    "website": "https://teleporthq.io"
+    "description": "Visually create everything from responsive pages to complex components. Integrate with any React stack, and empower anyone to ship.",
+    "price": "private beta",
+    "tags": ["browser based", "export code", "interactions&animations", "import from Figma", "templates", "git&cli integration"],
+    "website": "https://www.plasmic.app"
   },
   {
     "name": "Visly",
-    "description": "Create high-definition prototypes visually, generate the code in real-time, and deploy your user interface with one click",
-    "price": "FREE",
-    "tags": ["browser based", "open source", "hosting", "export code"],
-    "website": "https://teleporthq.io"
+    "description": "Rapidly design and build production-ready components with Visly, the design tool built for developers.",
+    "price": "FREE plan",
+    "tags": ["macOS only", "export code", "interactions", "git&cli integration"],
+    "website": "https://visly.app"
+  },
+  {
+    "name": "Clutch",
+    "description": "Build real web apps and micro front-ends that connect to any backend, in real-time with your team.",
+    "price": "private beta",
+    "tags": ["browser based", "export code", "hosting", "npm packages", "git integration", "real-time collaboration", "animate with Lottie"],
+    "website": "https://clutch.io"
+  },
+  {
+    "name": "Webflow",
+    "description": "Webflow empowers designers to build professional, custom websites in a completely visual canvas.",
+    "price": "FREE plan",
+    "tags": ["browser based", "export code", "hosting", "CMS", "Ecommerce", "interactions&animations", "templates", "animate with Lottie"],
+    "website": "https://webflow.com"
+  },
+  {
+    "name": "Appsheet",
+    "description": "AppSheet's no-code app building platform allows you to quickly build apps to collect, or connect to, data.",
+    "price": "FREE plan",
+    "tags": ["browser based", "for internal tools", "web&mobile apps", "spreadsheet import", "hosting"],
+    "website": "https://www.appsheet.com"
+  },
+  {
+    "name": "Handoff",
+    "description": "Design like you would in any traditional vector drawing tool – but export to clean, production-ready code.",
+    "price": "private beta",
+    "tags": ["browser based", "export code", "hosting", "git integration"],
+    "website": "https://www.handoff.design"
+  },
+  {
+    "name": "StudioDesign",
+    "description": "Turn ideas to live web experiences, in one place with your team.",
+    "price": "FREE plan",
+    "tags": ["browser based", "animation", "hosting", "CMS", "templates"],
+    "website": "https://studio.design"
+  },
+  {
+    "name": "Adalo",
+    "description": "Adalo makes creating apps as easy as putting together a slide deck. Turn your idea into a real native app — no code needed!",
+    "price": "FREE plan",
+    "tags": ["browser based", "for internal tools", "web&mobile apps", "spreadsheet import", "hosting", "templates"],
+    "website": "https://www.adalo.com"
   }
 ]
